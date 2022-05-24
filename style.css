@@ -1,0 +1,1082 @@
+    body{
+        background-color: white;
+    }
+    .letter {
+
+        width:110px; 
+        height:170px; 
+        display:inline-block; 
+        border:1px solid rgb(255, 45, 202);
+        position:relative; 
+    }
+
+/*Letter A starts here */
+    .leftA{
+        background-color:black;
+        position: absolute;
+        width: 50px;
+        height: 150px;
+        border-radius: 80% 0% 50% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .rightA{
+        background-color:black;
+        position: absolute;
+        width: 50px;
+        height: 150px;
+        border-radius: 0% 80% 20% 50%;
+        left: 50px;
+        top: 10px;
+    }
+    .centerTopA{
+        background-color: white;
+        position: absolute;
+        width: 20px;
+        height: 40px;
+        border-radius: 50% 50% 20% 20%;
+        left: 45px;
+        top: 40px;
+    }
+    .centerBottomA{
+        background-color: white;
+        position: absolute;
+        width: 20px;
+        height: 60px;
+        border-radius: 20% 20% 20% 20%;
+        left: 45px;
+        top: 110px;
+    }
+
+/*Letter B starts here */
+    .leftB{
+        background-color:black;
+        position: absolute;
+        width: 50px;
+        height: 150px;
+        border-radius: 20% 0% 0% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .topB{
+        background-color:black;
+        position: absolute;
+        width: 50px;
+        height: 75px;
+        border-radius: 0% 80% 80% 0%;
+        left: 50px;
+        top: 10px;
+    }
+    .bottomB{
+        background-color:black;
+        position: absolute;
+        width: 50px;
+        height: 75px;
+        border-radius: 0% 80% 80% 0%;
+        left: 50px;
+        top: 85px;
+    }
+    .topInnerB{
+        background-color:white;
+        position: absolute;
+        width: 35px;
+        height: 20px;
+        border-radius: 20% 50% 50% 20%;
+        left: 40px;
+        top: 40px;
+    }
+    .bottomInnerB{
+        background-color:white;
+        position: absolute;
+        width: 35px;
+        height: 20px;
+        border-radius: 20% 50% 50% 20%;
+        left: 40px;
+        top: 110px;
+    }
+
+/*Letter C starts here */
+    .leftC{
+        background-color: black;
+        position: absolute;
+        width: 89px;
+        height: 150px;
+        border-radius: 95% 65% 65% 95%;
+        left: 10px;
+        top: 10px;
+    }
+    .topC{
+        background-color:black;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+        border-radius: 41% 80% 80% 0%;
+        left: 50px;
+        top: 10px;
+    }
+    .bottomC{
+        background-color:black;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+        border-radius: 0% 80% 80% 41%;
+        left: 50px;
+        top: 120px;
+    }
+    .centerC{
+        background-color: white;
+        position: absolute;
+        width: 58px;
+        height: 90px;
+        border-radius: 75% 0% 0% 75%;
+        left: 43px;
+        top: 40px;
+    }
+
+/*Letter D starts here */
+    .leftD{
+        background-color: black;
+        position: absolute;
+        width: 50px;
+        height: 150px;
+        border-radius: 20% 0% 0% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .rightD{
+        background-color: black;
+        position: absolute;
+        width: 80px;
+        height: 150px;
+        border-radius: 0% 80% 80% 0%;
+        left: 22px;
+        top: 10px;
+    }
+    .centerD{
+        background-color: white;
+        position: absolute;
+        width: 27px;
+        height: 91px;
+        border-radius: 20% 85% 85% 20%;
+        left: 43px;
+        top: 40px;
+    }
+
+/*Letter E starts here */
+    .leftE{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 20% 0% 0% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .topE{
+        background-color: black;
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        border-radius: 0% 30% 10% 0%;
+        left: 40px;
+        top: 10px;
+    }
+    .middleE{
+        background-color: black;
+        position: absolute;
+        width: 40px;
+        height: 25px;
+        border-radius: 0% 30% 30% 0%;
+        left: 40px;
+        top: 70px;
+    }
+    .bottomE{
+        background-color:black;
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        border-radius: 0% 10% 30% 0%;
+        left: 40px;
+        top: 130px;
+    }
+    .centerTopE{
+        background-color: white;
+        position: absolute;
+        width: 25px;
+        height: 30px;
+        border-radius: 20% 20% 20% 20%;
+        left: 41px;
+        top: 40px;
+    }
+    .centerBottomE{
+        background-color: white;
+        position: absolute;
+        width: 25px;
+        height: 35px;
+        border-radius: 20% 20% 20% 20%;
+        left: 41px;
+        top: 95px;
+    }
+
+/*Letter F starts here */
+    .leftF{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 20% 0% 10% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .topF{
+        background-color: black;
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        border-radius: 0% 30% 10% 0%;
+        left: 40px;
+        top: 10px;
+    }
+    .middleF{
+        background-color: black;
+        position: absolute;
+        width: 40px;
+        height: 25px;
+        border-radius: 0% 30% 30% 0%;
+        left: 40px;
+        top: 70px;
+    }
+    .centerTopF{
+        background-color: white;
+        position: absolute;
+        width: 25px;
+        height: 30px;
+        border-radius: 20% 20% 20% 20%;
+        left: 41px;
+        top: 40px;
+    }
+    .centerBottomF{
+        background-color: white;
+        position: absolute;
+        width: 25px;
+        height: 69px;
+        border-radius: 20% 20% 0% 0%;
+        left: 43px;
+        top: 95px;
+    }
+
+/*Letter G starts here */
+    .leftG{
+        background-color: black;
+        position: absolute;
+        width: 89px;
+        height: 150px;
+        border-radius: 95% 65% 65% 95%;
+        left: 10px;
+        top: 10px;
+    }
+    .topG{
+        background-color:black;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+        border-radius: 41% 80% 80% 0%;
+        left: 50px;
+        top: 10px;
+    }
+    .bottomG{
+        background-color:black;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+        border-radius: 0% 80% 80% 41%;
+        left: 50px;
+        top: 120px;
+    }
+    .centerG{
+        background-color: white;
+        position: absolute;
+        width: 58px;
+        height: 90px;
+        border-radius: 75% 0% 0% 75%;
+        left: 43px;
+        top: 40px;
+    }
+    .rightG{
+        background-color: black;
+        position: absolute;
+        width: 30px;
+        height: 90px;
+        border-radius: 20% 20% 20% 20%;
+        left: 70px;
+        top: 70px;
+    }
+    .topRightG{
+        background-color: black;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 30% 0% 0% 30%;
+        left: 55px;
+        top: 70px;
+    }
+  
+/*Letter H starts here */
+    .leftH{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 20% 10% 10% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .rightH{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 10% 20% 20% 10%;
+        left: 65px;
+        top: 10px;
+    }
+    .middleH{
+        background-color: black;
+        position: absolute;
+        width: 50px;
+        height: 36px;
+        border-radius: 0% 30% 30% 0%;
+        left: 40px;
+        top: 64px;
+    }
+    .centerTopH{
+        background-color: white;
+        position: absolute;
+        width: 25px;
+        height: 70px;
+        border-radius: 20% 20% 20% 20%;
+        left: 43px;
+        top: 1px;
+    }
+    .centerBottomH{
+        background-color: white;
+        position: absolute;
+        width: 25px;
+        height: 73px;
+        border-radius: 20% 20% 20% 20%;
+        left: 43px;
+        top: 95px;
+    }
+/*Letter I starts here */
+    .middleI{
+        background-color:black;
+        position: absolute;
+        width: 30px;
+        height: 150px;
+        border-radius: 10% 10% 10% 10%;
+        left: 40px;
+        top: 10px;
+    }
+    .topI{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 30px;
+        border-radius: 10% 10% 30% 30%;
+        left: 10px;
+        top: 10px;
+    }
+    .bottomI{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 30px;
+        border-radius: 30% 30% 10% 10%;
+        left: 10px;
+        top: 130px;
+    }
+
+/*Letter J starts here */
+    .backgroundJ{
+        background-color: black;
+        position: absolute;
+        width: 89px;
+        height: 150px;
+        border-radius: 50% 30% 70% 70%;
+        left: 10px;
+        top: 10px;
+    }
+    .topRightJ{
+        background-color: black;
+        position: absolute;
+        width: 49px;
+        height: 41px;
+        border-radius: 41% 20% 30% 0%;
+        left: 50px;
+        top: 10px;
+    }
+    .topLeftJ{
+        background-color: black;
+        position: absolute;
+        width: 55px;
+        height: 35px;
+        border-radius: 20% 20% 20% 40%;
+        left: 35px;
+        top: 10px;
+    }
+    .centerJ{
+        background-color: white;
+        position: absolute;
+        width: 63px;
+        height: 73px;
+        border-radius: 10% 10% 10% 10%;
+        left: 7px;
+        top: 7px;
+    }
+    .center2J{
+        background-color: white;
+        position: absolute;
+        width: 38px;
+        height: 80px;
+        border-radius: 20% 20% 50% 50%;
+        left: 35px;
+        top: 43px;
+    }
+    .topMiddleJ{
+        background-color: black;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 30% 30% 30% 30%;
+        left: 10px;
+        top: 70px;
+    }
+
+/*Letter K starts here */
+    .backgroundK{
+        background-color: black;
+        position: absolute;
+        width: 89px;
+        height: 104px;
+        border-radius: 10% 80% 30% 20%;
+        left: 10px;
+        top: 56px;
+    }
+    .bottomRightK{
+        background-color: black;
+        position: absolute;
+        width: 30px;
+        height: 47px;
+        border-radius: 10% 50% 20% 10%;
+        left: 69px;
+        top: 114px;
+    }
+    .topK{
+        background-color: black;
+        position: absolute;
+        width: 70px;
+        height: 75px;
+        border-radius: 20% 20% 80% 60%;
+        left: 30px;
+        top: 10px;
+    }
+    .centerK{
+        background-color: white;
+        position: absolute;
+        width: 30px;
+        height: 59px;
+        border-radius: 10% 10% 80% 5%;
+        left: 44px;
+        top: 3px;
+    }
+    .center2K{
+        background-color: white;
+        position: absolute;
+        width: 36px;
+        height: 63px;
+        border-radius: 20% 70% 20% 20%;
+        left: 37px;
+        top: 102px;
+    }
+    .leftK{
+        background-color: black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 10% 20% 20% 10%;
+        left: 10px;
+        top: 10px;
+    }
+
+/*Letter L starts here */
+    .leftL{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 20% 10% 10% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .bottomL{
+        background-color: black;
+        position: absolute;
+        width: 60px;
+        height: 35px;
+        border-radius: 10% 30% 10% 0%;
+        left: 40px;
+        top: 125px;
+    }
+/*Letter M starts here */
+    .leftM{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 20% 10% 10% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .rightM{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 10% 20% 20% 10%;
+        left: 65px;
+        top: 10px;
+    }
+    .middleM{
+        background-color: black;
+        position: absolute;
+        width: 26px;
+        height: 54px;
+        border-radius: 0% 30% 70% 70%;
+        left: 42px;
+        top: 50px;
+    }
+    .centerTopM{
+        background-color: white;
+        position: absolute;
+        width: 24px;
+        height: 60px;
+        border-radius: 10% 10% 70% 70%;
+        left: 43px;
+        top: 5px;
+    }
+
+/*Letter N starts here */
+    .leftN{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 20% 10% 10% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .rightN{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 10% 20% 20% 10%;
+        left: 65px;
+        top: 10px;
+    }
+    .middleN{
+        background-color: black;
+        position: absolute;
+        width: 40px;
+        height: 112px;
+        border-radius: 2% 20% 20% 20%;
+        left: 36px;
+        top: 30px;
+    }
+    .centerTopN{
+        background-color: white;
+        position: absolute;
+        width: 24px;
+        height: 64px;
+        border-radius: 10% 10% 5% 90%;
+        left: 43px;
+        top: 1px;
+    }
+    .centerBottomN{
+        background-color: white;
+        position: absolute;
+        width: 25px;
+        height: 73px;
+        border-radius: 5% 90% 20% 20%;
+        left: 43px;
+        top: 95px;
+    }
+
+/*Letter O starts here */
+    .backgroundO{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 150px;
+        border-radius: 40%;
+        left: 10px;
+        top: 10px;
+    }
+
+    .centerO{
+        background-color: white;
+        position: absolute;
+        width: 27px;
+        height: 91px;
+        border-radius: 85%;
+        left: 43px;
+        top: 40px;
+    }
+
+/*Letter P starts here */
+    .leftP{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 20% 10% 10% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .topP{
+        background-color: black;
+        position: absolute;
+        width: 65px;
+        height: 75px;
+        border-radius: 0% 80% 80% 0%;
+        left: 35px;
+        top: 10px;
+    }
+    .topInnerP{
+        background-color: white;
+        position: absolute;
+        width: 35px;
+        height: 20px;
+        border-radius: 20% 50% 50% 20%;
+        left: 42px;
+        top: 38px;
+    }
+
+/*Letter Q starts here */
+    .backgroundQ{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 150px;
+        border-radius: 40%;
+        left: 10px;
+        top: 10px;
+    }
+
+    .centerQ{
+        background-color: white;
+        position: absolute;
+        width: 27px;
+        height: 91px;
+        border-radius: 85%;
+        left: 43px;
+        top: 40px;
+    }
+    .dashQ{
+        background-color: black;
+        position: absolute;
+        width: 75px;
+        height: 25px;
+        border-radius: 10% 20% 40% 20%;
+        left: 41px;
+        top: 111px;
+        transform: rotate(66deg);
+        }
+
+/*Letter R starts here */
+    .leftR{
+        background-color: black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 10% 20% 20% 10%;
+        left: 10px;
+        top: 10px;
+    }
+    .topR{
+        background-color: black;
+        position: absolute;
+        width: 65px;
+        height: 75px;
+        border-radius: 0% 80% 80% 0%;
+        left: 35px;
+        top: 10px;
+    }
+    .topInnerR{
+        background-color: white;
+        position: absolute;
+        width: 35px;
+        height: 20px;
+        border-radius: 20% 50% 50% 20%;
+        left: 42px;
+        top: 38px;
+    }
+    .center2R{
+        background-color: white;
+        position: absolute;
+        width: 36px;
+        height: 63px;
+        border-radius: 20% 70% 20% 20%;
+        left: 37px;
+        top: 102px;
+    }
+    .bottomR{
+        background-color: black;
+        position: absolute;
+        width: 88px;
+        height: 104px;
+        border-radius: 10% 80% 30% 20%;
+        left: 11px;
+        top: 56px;
+    }
+    .bottomRightR{
+        background-color: black;
+        position: absolute;
+        width: 30px;
+        height: 47px;
+        border-radius: 10% 50% 20% 10%;
+        left: 69px;
+        top: 114px;
+    }
+
+/*Letter S starts here */
+    .topS{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 80px;
+        border-radius: 40%;
+        left: 10px;
+        top: 10px;
+    }
+    .bottomS{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 80px;
+        border-radius: 40%;
+        left: 10px;
+        top: 81px;
+    }
+    .centerS{
+        background-color: white;
+        position: absolute;
+        width: 60px;
+        height: 43px;
+        border-radius: 40% 50% 0% 50%;
+        left: 44px;
+        top: 43px;
+        }
+    .center2S{
+        background-color: white;
+        position: absolute;
+        width: 60px;
+        height: 43px;
+        border-radius: 0% 50% 40% 40%;
+        left: 9px;
+        top: 85px;
+    }
+    .bottomLeftS{
+        background-color: black;
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        border-radius: 20% 40% 90% 90%;
+        left: 10px;
+        top: 102px;
+    }
+    .topRightS{
+        background-color: black;
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        border-radius: 20% 90% 20% 30%;
+        left: 70px;
+        top: 18px;
+    }
+    .diagonalS{
+        background-color: black;
+        position: absolute;
+        width: 78px;
+        height: 35px;
+        border-radius: 30%;
+        left: 17px;
+        top: 68px;
+        transform: rotate(35deg);
+        }
+/*Letter T starts here */
+    .middleT{
+        background-color:black;
+        position: absolute;
+        width: 30px;
+        height: 150px;
+        border-radius: 10% 10% 10% 10%;
+        left: 40px;
+        top: 10px;
+    }
+    .topT{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 30px;
+        border-radius: 10% 10% 30% 30%;
+        left: 10px;
+        top: 10px;
+    }
+
+/*Letter U starts here */
+    .leftU{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 130px;
+        border-radius: 20% 10% 10% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .rightU{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 130px;
+        border-radius: 10% 20% 20% 10%;
+        left: 65px;
+        top: 10px;
+    }
+    .bottomU{
+        background-color: black;
+        position: absolute;
+        width: 85px;
+        height: 58px;
+        border-radius: 10% 10% 60% 60%;
+        left: 13px;
+        top: 103px;
+    }
+    .centerU{
+        background-color: white;
+        position: absolute;
+        width: 25px;
+        height: 125px;
+        border-radius: 0% 0% 35% 35%;
+        left: 43px;
+        top: 1px;
+    }
+
+/*Letter V starts here */
+    .leftV{
+        background-color: black;
+        position: absolute;
+        width: 35px;
+        height: 65px;
+        border-radius: 20% 10% 50% 50%;
+        left: 10px;
+        top: 10px;
+    }
+    .rightV{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 65px;
+        border-radius: 10% 20% 50% 50%;
+        left: 65px;
+        top: 10px;
+    }
+    .bottomLeftV{
+        background-color: black;
+        position: absolute;
+        width: 48px;
+        height: 120px;
+        border-radius: 10% 10% 10% 95%;
+        left: 10px;
+        top: 40px;
+    }
+    .bottomRightV{
+        background-color: black;
+        position: absolute;
+        width: 48px;
+        height: 120px;
+        border-radius: 10% 10% 95% 10%;
+        left: 52px;
+        top: 40px;
+    }
+    .centerV{
+        background-color: white;
+        position: absolute;
+        width: 25px;
+        height: 125px;
+        border-radius: 0% 0% 75% 75%;
+        left: 43px;
+        top: 1px;
+    }
+
+/*Letter W starts here */
+    .leftW{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 20% 10% 10% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .rightW{
+        background-color:black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 10% 20% 20% 10%;
+        left: 65px;
+        top: 10px;
+    }
+    .middleW{
+        background-color: black;
+        position: absolute;
+        width: 26px;
+        height: 76px;
+        border-radius: 70% 70% 30% 30%;
+        left: 42px;
+        top: 54px;
+    }
+    .centerBottomW{
+        background-color: white;
+        position: absolute;
+        width: 21px;
+        height: 60px;
+        border-radius: 70% 70% 10% 10%;
+        left: 45px;
+        top: 100px;
+    }
+
+/*Letter X starts here */
+    .backgroundX{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 100px;
+        border-radius: 80% 80% 20% 20%;
+        left: 10px;
+        top: 60px;
+    }
+    .topX{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 75px;
+        border-radius: 20% 20% 80% 80%;
+        left: 10px;
+        top: 10px;
+    }
+    .centerX{
+        background-color: white;
+        position: absolute;
+        width: 30px;
+        height: 59px;
+        border-radius: 10% 10% 80% 80%;
+        left: 42px;
+        top: 3px;
+    }
+    .center2X{
+        background-color: white;
+        position: absolute;
+        width: 30px;
+        height: 67px;
+        border-radius: 70% 70% 20% 20%;
+        left: 42px;
+        top: 102px;
+    }
+
+/*Letter Y starts here */
+    .topY{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 75px;
+        border-radius: 20% 20% 80% 80%;
+        left: 10px;
+        top: 10px;
+    }
+    .centerY{
+        background-color: white;
+        position: absolute;
+        width: 30px;
+        height: 59px;
+        border-radius: 10% 10% 80% 80%;
+        left: 42px;
+        top: 3px;
+    }
+    .middleY{
+        background-color: black;
+        position: absolute;
+        width: 35px;
+        height: 150px;
+        border-radius: 10% 10% 10% 10%;
+        left: 39px;
+        top: 10px;
+    }
+
+/*Letter Z starts here */
+    .topZ{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 35px;
+        border-radius: 10% 10% 20% 20%;
+        left: 10px;
+        top: 10px;
+    }
+    .bottomZ{
+        background-color: black;
+        position: absolute;
+        width: 90px;
+        height: 35px;
+        border-radius: 20% 20% 10% 10%;
+        left: 10px;
+        top: 125px;
+    }
+    .middleZ{
+        background-color: black;
+        position: absolute;
+        width: 70px;
+        height: 112px;
+        border-radius: 2% 20% 20% 20%;
+        left: 20px;
+        top: 30px;
+    }
+    .centerRightZ{
+        background-color: white;
+        position: absolute;
+        width: 48px;
+        height: 83px;
+        border-radius: 90% 10% 10% 10%;
+        left: 51px;
+        top: 44px;
+    }
+    .centerLeftZ{
+        background-color: white;
+        position: absolute;
+        width: 53px;
+        height: 83px;
+        border-radius: 10% 10% 90% 10%;
+        left: 9px;
+        top: 44px;
+    }
+    .centerDiagonalZ{
+        transform: rotate(303deg);
+        background-color: black;
+        position: absolute;
+        width: 136px;
+        height: 30px;
+        border-radius: 20%;
+        left: -13px;
+        top: 72px;
+    }
